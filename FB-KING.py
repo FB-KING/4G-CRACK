@@ -18,16 +18,16 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from free import check_my_key
+        from free import main1
  
-        check_my_key()
+        main1()
  
  
  
 elif bit == "32bit":
  
-        from free import check_my_key
+        from free import main1
  
  
-        check_my_key()
+        main1()
         
